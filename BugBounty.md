@@ -172,6 +172,7 @@ Additional opportunities to claim tokens on our TGE date and receive long-term r
 | [@Wizard0fthedigitalage](https://github.com/Wizard0fthedigitalage)    | Rate Limiting bypass on Login Endpoint via IP Rotation and null byte characters on alxblock      | `app.aixblock.io`   | Low       | Accepted |  100 worth of token & rev‑share      |
 | [@eMKayRa0](https://github.com/eMKayRa0)    | Vulnerability Report: Session Mismanagement / Broken Authentication in Profile Update Endpoint      | `app.aixblock.io`   | High       | Accepted |  $225 cash + 500 worth of token & rev‑share      |
 | [@0xygyn-X](https://github.com/0xygyn-X)    | API Rate-Limit Restriction (3 request maximum) Bypass using Race Condition      | `app.aixblock.io`   | Low       | Accepted |  100 worth of token & rev‑share      |
+| [@sonw-vh](https://github.com/sonw-vh)    | Stored XSS in model description + workflow bypass lets any logged-in user publish malicious marketplace listings      | `app.aixblock.io`   | Medium       | Accepted |  $200 cash + worth of token & rev‑share      |
 
 
 
