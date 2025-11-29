@@ -62,12 +62,15 @@ async function runCommandWithLiveOutput(cmd: string): Promise<void> {
     const [command, ...args] = cmd.split(' ')
 
     return new Promise<void>((resolve, reject) => {
+        
+        // Fixed issue: 383
         // const child = spawn(command, args, { stdio: 'inherit', shell: true })
         // Without shell: true : Input validation
         if (!/^[a-zA-Z0-9_-]+$/.test(command)) {
           throw new Error("Invalid command");
         }
         const child = spawn(command, args, { stdio: 'inherit' }); // Without shell: true
+        // Fixed issue: 383
 
         child.on('error', reject)
         child.on('close', code => {
